@@ -2,8 +2,8 @@ import fcntl
 import os
 import struct
 
-from . import ifconfig
-from . import util
+from pynetlinux import ifconfig
+from pynetlinux import util
 
 # From linux/if_tun.h
 

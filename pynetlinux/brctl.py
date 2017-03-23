@@ -3,7 +3,7 @@ import fcntl
 import os
 import struct
 
-from . import ifconfig
+from pynetlinux import ifconfig
 
 SYSFS_NET_PATH = b"/sys/class/net"
 
